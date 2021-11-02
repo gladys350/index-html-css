@@ -126,7 +126,7 @@ body{
 }
 .card p{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 /*galeria*/
@@ -248,6 +248,25 @@ input[type="submit"]:hover{
         margin-bottom: 20px;
     }
 }
-
+@media screen and(max-width:400px){
+    .titulo,
+    .textos-hero h1{
+        font-size: 30px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .card{
+        height: 380px;
+    }
+    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+    .galeria-cont>img{
+        width: 97%;
+    }
+    
+}
 
 
